@@ -3,10 +3,10 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://chiri.the3ash.com/', // Site domain
-    title: 'CHIRI', // Site title
-    author: '3ASH', // Author name
-    description: 'Minimal blog built by Astro', // Site description
+    website: 'https://ruthreed.dev', // Site domain
+    title: "Hello, it's Rufio", // Site title
+    author: 'Rufio', // Author name
+    description: "I'm a expert programmer, please hire me, ty", // Site description
     language: 'en-US' // Default language
   },
 
@@ -29,11 +29,11 @@ export const themeConfig: ThemeConfig = {
 
   // POST SETTINGS ///////////////////////////////////////////////////////////////////////////////////////
   post: {
-    readingTime: false, // Show reading time in posts
+    readingTime: true, // Show reading time in posts
     toc: true, // Show table of contents (when there is enough page width)
     imageViewer: true, // Enable image viewer
     copyCode: true, // Enable copy button in code blocks
     linkCard: true, // Enable link card
-    katex: true // Enable KaTeX math rendering
+    katex: false // Enable KaTeX math rendering
   }
 }
