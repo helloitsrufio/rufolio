@@ -7,10 +7,10 @@ This content will be displayed at the top of the index page.
 You can leave this empty if you don’t want to show any content.
 -->
 
-A static blog theme based on [Astro](https://astro.build), _designed for clarity and focus_.
+Rufio is a coder and streamer, a real "rad penguin", and an aspiring Canadian.
 
-With a deliberately minimal design, this layout ensures your content takes center stage. It's built for flexibility, offering customization options that honor its clean and elegant aesthetic.
+Rufio hates vtubers, anime, chicken (the tendies), and Utah. She enjoy long walks on the beach, a light jacket, and generally the 25th of April.
 
-Effortlessly share your thoughts in a calm & dustless space.
+Rufio is the leader of the biggest cult on Twitch, eventually the leader of the biggest empire known through history & present.
 
-Check posts for details and view source on [GitHub](https://github.com/the3ash/astro-chiri).
+And this...is her portfolio.
