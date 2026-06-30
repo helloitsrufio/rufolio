@@ -3,9 +3,9 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://ruthreed.dev', // Site domain
+    website: 'https://www.helloitsrufio.com', // Site domain
     title: "Hello, it's Rufio", // Site title
-    author: 'Rufio', // Author name
+    author: 'Ruth Reed', // Author name
     description: "I'm a expert programmer, please hire me, ty", // Site description
     language: 'en-US' // Default language
   },
