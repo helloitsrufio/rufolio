@@ -14,6 +14,7 @@ import remarkTOC from './src/plugins/remark-toc.mjs'
 import { themeConfig } from './src/config'
 import { imageConfig } from './src/utils/image-config'
 import path from 'path'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   site: themeConfig.site.website,
@@ -39,7 +40,9 @@ export default defineConfig({
     rehypePlugins: [rehypeKatex, rehypeCleanup, rehypeImageProcessor, rehypeCopyCode]
   },
   integrations: [mdx(), sitemap()],
+
   vite: {
+    plugins: [tailwindcss() as any],
     resolve: {
       alias: {
         '@': path.resolve('./src')
